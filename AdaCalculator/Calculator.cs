@@ -27,7 +27,7 @@ namespace AdaCalculator
                     c = a + b;
                     break;
                 default:
-                    c = a + b;
+                    throw new ArgumentException();
                     break;
             }
             resultOperation = (operation, c);
